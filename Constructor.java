@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.constructor;
+
+/**
+ *
+ * @author HP
+ */
+public class Constructor {
+    
+static class Car{
+    String color;
+    String model;
+    int year;
+    
+Car(String color, String model, int year){
+    this.color = color;
+    this.model = model;
+    this.year = year;
+}
+}
+
+    public static void main(String[] args) {
+        Car myCar = new Car("blue", "Corolla", 2022);
+        System.out.println(myCar.year);
+    }
+}
